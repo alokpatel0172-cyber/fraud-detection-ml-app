@@ -9,8 +9,8 @@ app = Flask(__name__)
 model   = pickle.load(open('model.pkl', 'rb'))
 columns = pickle.load(open('columns.pkl', 'rb'))
 
-print("✅ Model loaded! Expects", model.n_features_in_, "features")
-print("✅ Columns:", columns)
+print(" Model loaded! Expects", model.n_features_in_, "features")
+print(" Columns:", columns)
 
 @app.route('/', methods=['GET'])
 def home():
