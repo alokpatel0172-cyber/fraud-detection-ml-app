@@ -50,7 +50,9 @@ This project builds an ML model to classify transactions as
 
 ## 👨‍💻 Author
 - **Name:** Alok Patel
-- **GitHub:** https://github.com/alokpatel0172-cybe
+- **Name:** Pawan Kumar Patel
+- **Name:** Rishu Yadav  
+- **GitHub:** https://github.com/alokpatel0172-cyber
 
 ## 📜 License
 This project is for educational purposes only.
