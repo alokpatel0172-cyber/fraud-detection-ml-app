@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction Result</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: linear-gradient(135deg, #1a1a2e, #16213e); min-height: 100vh; }
+    .result-card { border-radius: 20px; border: none; }
+    .confidence-bar { height: 20px; border-radius: 10px; transition: width 1s ease; }
+  </style>
+</head>
+<body class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card result-card shadow-lg">
+          <div class="card-body text-center p-5">
+
+            <div class="alert alert-{{ color }} mb-4" style="border-radius: 12px; font-size: 1.3rem;">
+              <strong>{{ result }}</strong>
+            </div>
+
+            <h5 class="text-muted mb-2">Model Confidence</h5>
+            <div class="progress mb-2" style="height: 20px; border-radius: 10px;">
+              <div class="progress-bar bg-{{ color }} confidence-bar"
+                   style="width: {{ confidence }}%">
+                {{ confidence }}%
+              </div>
+            </div>
+
+            <p class="text-muted mt-3">
+              Based on the transaction details you provided,
+              our ML model has made this prediction with
+              <strong>{{ confidence }}%</strong> confidence.
+            </p>
+
+            <a href="/" class="btn btn-dark rounded-pill px-4 mt-2">
+              ← Check Another Transaction
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
