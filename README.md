@@ -49,9 +49,10 @@ This project builds an ML model to classify transactions as
 | KNN | ~76% |
 
 ## 👨‍💻 Author
-- **Name:** Alok Patel
-- **Name:** Pawan Kumar Patel
-- **Name:** Rishu Yadav  
+- **Name:** Alok Patel(271)
+- **Name:** Pawan Kumar Patel(298)
+- **Name:** Rishu Yadav(306)
+- **Name:** Prince Kumar Gupta(304)  
 - **GitHub:** https://github.com/alokpatel0172-cyber
 
 ## 📜 License
